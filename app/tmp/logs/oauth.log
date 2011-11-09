@@ -1,0 +1,245 @@
+2011-09-05 10:08:43 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(140) function(initConsumer) 
+Array
+(
+    [uri] => http://term.ie
+    [access_token_uri] => /oauth/example/access_token.php
+    [authorize_uri] => /oauth/example/authorize.php
+    [request_token_uri] => /oauth/example/request_token.php
+    [scheme] => header
+    [http_method] => GET
+)
+
+2011-09-05 10:08:43 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(141) function(initConsumer) 
+Array
+(
+    [signature_method] => HMAC-SHA1
+    [request_token_uri] => /oauth/example/request_token.php
+    [authorize_uri] => /oauth/example/authorize.php
+    [access_token_uri] => /oauth/example/access_token.php
+    [scheme] => header
+    [http_method] => GET
+    [oauth_version] => 1.0
+    [uri] => http://term.ie
+)
+
+2011-09-05 10:08:43 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(140) function(initConsumer) 
+Array
+(
+    [uri] => http://term.ie
+    [access_token_uri] => /oauth/example/access_token.php
+    [authorize_uri] => /oauth/example/authorize.php
+    [request_token_uri] => /oauth/example/request_token.php
+    [scheme] => header
+    [http_method] => GET
+)
+
+2011-09-05 10:08:43 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(141) function(initConsumer) 
+Array
+(
+    [signature_method] => HMAC-SHA1
+    [request_token_uri] => /oauth/example/request_token.php
+    [authorize_uri] => /oauth/example/authorize.php
+    [access_token_uri] => /oauth/example/access_token.php
+    [scheme] => header
+    [http_method] => GET
+    [oauth_version] => 1.0
+    [uri] => http://term.ie
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(204) function(signature) 
+Array
+(
+    [local] => mz/PClas3uV+BhJ5jspe4xhUCtY=
+    [ext] => 
+    [localString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+    [localSecret] => secret&
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:43 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DteywAXuFjWuzXYVsp06ROWzYpZXPu4I2IIFvMAO0nY%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228123%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:44 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(318) function(tokenRequest) 
+Array
+(
+    [0] => oauth_token=requestkey
+    [1] => oauth_token_secret=requestsecret
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&requestsecret
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&requestsecret
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(204) function(signature) 
+Array
+(
+    [local] => vRNY9OVhSYkS7SHh617hmj8zHb8=
+    [ext] => 
+    [localString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+    [localSecret] => secret&requestsecret
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&requestsecret
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:51 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Fterm.ie%2Foauth%2Fexample%2Faccess_token.php&oauth_consumer_key%3Dkey%26oauth_nonce%3DYJ2dAcD37pgZScHsrdCl2ukLsLhHMq5ns52XttI09Q%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315228131%26oauth_token%3Drequestkey%26oauth_version%3D1.0
+)
+
+2011-09-05 10:08:54 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(318) function(tokenRequest) 
+Array
+(
+    [0] => oauth_token=accesskey
+    [1] => oauth_token_secret=accesssecret
+)
+
+2011-09-05 10:23:21 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(140) function(initConsumer) 
+Array
+(
+    [uri] => http://localhost
+    [access_token_uri] => /oauth/users/access_token.php
+    [authorize_uri] => /oauth/users/authorize.php
+    [request_token_uri] => /oauth/users/request_token.php
+    [scheme] => header
+    [http_method] => GET
+)
+
+2011-09-05 10:23:21 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(141) function(initConsumer) 
+Array
+(
+    [signature_method] => HMAC-SHA1
+    [request_token_uri] => /oauth/users/request_token.php
+    [authorize_uri] => /oauth/users/authorize.php
+    [access_token_uri] => /oauth/users/access_token.php
+    [scheme] => header
+    [http_method] => GET
+    [oauth_version] => 1.0
+    [uri] => http://localhost
+)
+
+2011-09-05 10:23:21 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(140) function(initConsumer) 
+Array
+(
+    [uri] => http://localhost
+    [access_token_uri] => /oauth/users/access_token.php
+    [authorize_uri] => /oauth/users/authorize.php
+    [request_token_uri] => /oauth/users/request_token.php
+    [scheme] => header
+    [http_method] => GET
+)
+
+2011-09-05 10:23:21 Oauth: : object(Consumer) file(/var/www/electionape/app/plugins/oauth_lib/libs/consumer.php) line(141) function(initConsumer) 
+Array
+(
+    [signature_method] => HMAC-SHA1
+    [request_token_uri] => /oauth/users/request_token.php
+    [authorize_uri] => /oauth/users/authorize.php
+    [access_token_uri] => /oauth/users/access_token.php
+    [scheme] => header
+    [http_method] => GET
+    [oauth_version] => 1.0
+    [uri] => http://localhost
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(204) function(signature) 
+Array
+(
+    [local] => ENQPo1yAnqJ6R+LRb7RkXAgi8EU=
+    [ext] => 
+    [localString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+    [localSecret] => secret&
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(256) function(_secret) 
+secret&
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+)
+
+2011-09-05 10:23:21 Oauth: : object(SignatureSHA1) file(/var/www/electionape/app/plugins/oauth_lib/libs/signature.php) line(246) function(signatureBaseString) 
+Array
+(
+    [signatureBaseString] => GET&http%3A%2F%2Flocalhost%2Foauth%2Fusers%2Frequest_token.php&oauth_callback%3D%252Fcallback%26oauth_consumer_key%3Dkey%26oauth_nonce%3DpTLgU3sD3JG74zm1abdyUJfGBt3uedQ6Z7nc0Z5xeo%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1315229001%26oauth_version%3D1.0
+)
+
